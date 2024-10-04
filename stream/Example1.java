@@ -31,8 +31,6 @@ public class Example1 {
         List<String> str = Arrays.asList("ram", "radhe", "shyam", "ghanshyam");
 
         List<String> temp = str.stream().filter(a -> a.startsWith("ra")).collect(Collectors.toList());
-
-
         System.out.println(temp);
 
     }
