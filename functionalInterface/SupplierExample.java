@@ -15,5 +15,6 @@ public class SupplierExample {
         if(predicate.test(supplier.get())){
             consumer.accept(function.apply(supplier.get()));
         }
+        
     }
 }
